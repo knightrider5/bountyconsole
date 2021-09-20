@@ -1,5 +1,7 @@
-#! bin/bash
-sudo su
+#! bin/bash 
+
+echo "run as ROOT before you install"
+sleep 2
 sudo apt-get install git -y 2> /dev/null
 sudo apt-get install python3 -y 2> /dev/null
 sudo apt-get install python3-pip -y 2> /dev/null
